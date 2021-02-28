@@ -21,7 +21,7 @@ public class ProducerDemo {
 
     //create producer record
 
-    ProducerRecord<String, String> record = new ProducerRecord<String, String>("firstTopic", "Hello, World!");
+    ProducerRecord<String, String> record = new ProducerRecord<String, String>("firstTopic", "Hello, Pandora!");
 
     //send
     producer.send(record);
