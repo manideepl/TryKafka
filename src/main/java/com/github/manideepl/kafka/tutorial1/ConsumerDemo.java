@@ -43,7 +43,7 @@ public class ConsumerDemo {
                 logger.info("key: " + record.key() + "\n" + "value: " + record.value());
                 logger.info("partition: " + record.partition() +"\n" + "offset: " + record.offset());
             }
-
+//test comment
         }
 
 
